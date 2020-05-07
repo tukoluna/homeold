@@ -1,0 +1,62 @@
+/* Code tidied up by ScrapBook */
+.pswp { display: none; position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; overflow: hidden; touch-action: none; z-index: 1500; backface-visibility: hidden; outline: medium none; }
+.pswp * { box-sizing: border-box; }
+.pswp__bg { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: rgb(0, 0, 0) none repeat scroll 0% 0%; opacity: 0; backface-visibility: hidden; will-change: opacity; }
+.pswp__scroll-wrap { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; }
+.pswp__container, .pswp__zoom-wrap { touch-action: none; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; }
+.pswp__container, .pswp__img { -moz-user-select: none; }
+.pswp__bg { will-change: opacity; transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1) 0s; }
+.pswp__container, .pswp__zoom-wrap { backface-visibility: hidden; will-change: transform; }
+.pswp__item { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; overflow: hidden; }
+.pswp__button { width: 44px; height: 44px; position: relative; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; cursor: pointer; overflow: visible; display: block; border: 0px none; padding: 0px; margin: 0px; float: right; opacity: 0.75; transition: opacity 0.2s ease 0s; box-shadow: none; }
+.pswp__button:focus, .pswp__button:hover { opacity: 1; }
+.pswp__button:active { outline: medium none; opacity: 0.9; }
+.pswp__button::-moz-focus-inner { padding: 0px; border: 0px none; }
+.pswp__button, .pswp__button--arrow--left::before, .pswp__button--arrow--right::before { background: rgba(0, 0, 0, 0) url("default-skin.png") no-repeat scroll 0px 0px / 264px 88px; width: 44px; height: 44px; }
+@media not all, not all, (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+}
+.pswp__button--close { background-position: 0px -44px; }
+.pswp__button--share { background-position: -44px -44px; }
+.pswp__button--fs { display: none; }
+.pswp__button--zoom { display: none; background-position: -88px 0px; }
+.pswp__button--arrow--left, .pswp__button--arrow--right { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; top: 50%; margin-top: -50px; width: 70px; height: 100px; position: absolute; }
+.pswp__button--arrow--left { left: 0px; }
+.pswp__button--arrow--right { right: 0px; }
+.pswp__button--arrow--left::before, .pswp__button--arrow--right::before { content: ""; top: 35px; background-color: rgba(0, 0, 0, 0.3); height: 30px; width: 32px; position: absolute; }
+.pswp__button--arrow--left::before { left: 6px; background-position: -138px -44px; }
+.pswp__button--arrow--right::before { right: 6px; background-position: -94px -44px; }
+.pswp__counter, .pswp__share-modal { -moz-user-select: none; }
+.pswp__share-modal { display: block; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; width: 100%; height: 100%; top: 0px; left: 0px; padding: 10px; position: absolute; z-index: 1600; opacity: 0; transition: opacity 0.25s ease-out 0s; backface-visibility: hidden; will-change: opacity; }
+.pswp__share-modal--hidden { display: none; }
+.pswp__share-tooltip { z-index: 1620; position: absolute; background: rgb(255, 255, 255) none repeat scroll 0% 0%; top: 56px; border-radius: 2px; display: block; width: auto; right: 44px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); transform: translateY(6px); transition: transform 0.25s ease 0s; backface-visibility: hidden; will-change: transform; }
+.pswp__counter { position: absolute; left: 0px; top: 0px; height: 44px; font-size: 13px; line-height: 44px; color: rgb(255, 255, 255); opacity: 0.75; padding: 0px 10px; }
+.pswp__caption { position: absolute; left: 0px; bottom: 0px; width: 100%; min-height: 44px; }
+.pswp__caption__center { text-align: left; max-width: 420px; margin: 0px auto; font-size: 13px; padding: 10px; line-height: 20px; color: rgb(204, 204, 204); }
+.pswp__preloader { width: 44px; height: 44px; position: absolute; top: 0px; left: 50%; margin-left: -22px; opacity: 0; transition: opacity 0.25s ease-out 0s; will-change: opacity; direction: ltr; }
+.pswp__preloader__icn { width: 20px; height: 20px; margin: 12px; }
+@media screen and (max-width: 1024px) {
+  .pswp__preloader { position: relative; left: auto; top: auto; margin: 0px; float: right; }
+}
+@keyframes clockwise {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@keyframes clockwise {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@keyframes donut-rotate {
+0% { transform: rotate(0deg); }
+50% { transform: rotate(-140deg); }
+100% { transform: rotate(0deg); }
+}
+@keyframes donut-rotate {
+0% { transform: rotate(0deg); }
+50% { transform: rotate(-140deg); }
+100% { transform: rotate(0deg); }
+}
+.pswp__ui { visibility: visible; opacity: 1; z-index: 1550; }
+.pswp__top-bar { position: absolute; left: 0px; top: 0px; height: 44px; width: 100%; }
+.pswp__caption, .pswp__top-bar, .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right { backface-visibility: hidden; will-change: opacity; transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1) 0s; }
+.pswp__top-bar, .pswp__caption { background-color: rgba(0, 0, 0, 0.5); }
+.pswp__ui--hidden .pswp__top-bar, .pswp__ui--hidden .pswp__caption, .pswp__ui--hidden .pswp__button--arrow--left, .pswp__ui--hidden .pswp__button--arrow--right { opacity: 0.001; }
