@@ -1,0 +1,14 @@
+/* Code tidied up by ScrapBook */
+#CDSWIDCOE { position: relative; font: 11px Trip Sans VF,Trip Sans,Arial,sans-serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); overflow: hidden; width: 148px; margin: 0px 10px 10px; text-align: center; }
+#CDSWIDCOE .widCOEClickWrap { position: absolute; height: 100%; width: 100%; top: 0px; left: 0px; z-index: 4; }
+#CDSWIDCOE a:hover { text-decoration: underline; background-color: transparent; }
+#CDSWIDCOE a:hover, #CDSWIDCOE a:visited { border: medium none; font-weight: 400; color: rgb(0, 0, 0); }
+#CDSWIDCOE img { border: medium none; display: block; width: 100%; }
+#CDSWIDCOE.widCOE.cx_brand_refresh .widCOEImg { margin-top: -40px; margin-bottom: 0px; }
+#CDSWIDCOE.widCOE.cx_brand_refresh .widCOETitle { padding-top: 10px; }
+#CDSWIDCOE.widCOE.cx_brand_refresh .widCOEReadReviews { color: rgb(0, 0, 0); }
+#CDSWIDCOE.widCOE { border: 1px solid rgb(52, 224, 161); }
+#CDSWIDCOE.widCOE .widCOEImg { margin: -15px auto -10px; width: 140px; }
+#CDSWIDCOE.widCOE .widCOETitle { font: 700 10px Trip Sans VF,Trip Sans,Arial,sans-serif; text-align: center; letter-spacing: -0.12px; color: rgb(0, 0, 0); padding-top: 5px; z-index: 3; position: relative; }
+#CDSWIDCOE.widCOE .widCOELogo { position: relative; z-index: 2; }
+#CDSWIDCOE.widCOE .widCOEReadReviews { font: 10px Trip Sans VF,Trip Sans,Arial,sans-serif; text-align: center; letter-spacing: -0.12px; color: rgb(0, 102, 153); padding-top: 1px; padding-bottom: 5px; z-index: 3; position: relative; text-decoration: underline; }
